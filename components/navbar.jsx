@@ -72,7 +72,7 @@ export default function Navbar() {
               >
                 Services
               </button>
-             
+
               <button
                 onClick={() => scrollToSection("contact")}
                 className={`transition-colors font-medium ${
@@ -85,7 +85,7 @@ export default function Navbar() {
               </button>
               <button
                 onClick={() => scrollToSection("contact")}
-                className=" bg-[#B8956A] text-white px-8 py-3 rounded-lg hover:bg-[#A07D54] transition-colors font-medium text-center"
+                className="bg-white text-gray-900 px-8 py-3 rounded-lg hover:bg-gray-100 transition-colors font-medium text-center shadow-md"
               >
                 Appointment Now
               </button>
@@ -135,7 +135,7 @@ export default function Navbar() {
                 >
                   Services
                 </button>
-               
+
                 <button
                   onClick={() => scrollToSection("contact")}
                   className="text-gray-900 hover:text-[#B8956A] transition-colors font-medium py-3 px-4 rounded-lg hover:bg-gray-100 text-left"
@@ -144,7 +144,7 @@ export default function Navbar() {
                 </button>
                 <button
                   onClick={() => scrollToSection("contact")}
-                  className="mt-4 bg-[#B8956A] text-white px-8 py-3 rounded-lg hover:bg-[#A07D54] transition-colors font-medium text-center"
+                  className="mt-4 bg-white text-gray-900 px-8 py-3 rounded-lg hover:bg-gray-100 transition-colors font-medium text-center shadow-md"
                 >
                   Appointment Now
                 </button>
