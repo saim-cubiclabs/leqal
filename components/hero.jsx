@@ -26,10 +26,10 @@ export default function Hero() {
       />
       <div className="absolute inset-0 bg-black/50" />
 
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10 flex flex-col justify-center min-h-screen">
-        <div className="max-w-4xl  ">
+      <div className=" container mx-auto px-4 sm:px-6 lg:px-8 relative z-10 flex flex-col justify-center min-h-screen">
+        <div className=" mb-50 max-w-4xl  ">
           <div className="space-y-8 ">
-            <h1 className="font-serif text-5xl sm:text-6xl lg:text-7xl font-bold text-white leading-tight">
+            <h1 className=" font-serif text-5xl sm:text-6xl lg:text-7xl font-bold text-white leading-tight">
               Best legal{" "}
               <span className="text-balance block text-white">
                 solutions.
