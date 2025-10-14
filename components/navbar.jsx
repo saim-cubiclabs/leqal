@@ -72,16 +72,7 @@ export default function Navbar() {
               >
                 Services
               </button>
-              <button
-                onClick={() => scrollToSection("team")}
-                className={`transition-colors font-medium ${
-                  isScrolled
-                    ? "text-gray-900 hover:text-[#B8956A]"
-                    : "text-white hover:text-[#B8956A]"
-                }`}
-              >
-                Meet our Team
-              </button>
+             
               <button
                 onClick={() => scrollToSection("contact")}
                 className={`transition-colors font-medium ${
@@ -94,7 +85,7 @@ export default function Navbar() {
               </button>
               <button
                 onClick={() => scrollToSection("contact")}
-                className="bg-[#B8956A] text-white px-6 py-2.5 rounded-lg hover:bg-[#A07D54] transition-colors font-medium"
+                className=" bg-[#B8956A] text-white px-8 py-3 rounded-lg hover:bg-[#A07D54] transition-colors font-medium text-center"
               >
                 Appointment Now
               </button>
@@ -144,12 +135,7 @@ export default function Navbar() {
                 >
                   Services
                 </button>
-                <button
-                  onClick={() => scrollToSection("team")}
-                  className="text-gray-900 hover:text-[#B8956A] transition-colors font-medium py-3 px-4 rounded-lg hover:bg-gray-100 text-left"
-                >
-                  Meet our Team
-                </button>
+               
                 <button
                   onClick={() => scrollToSection("contact")}
                   className="text-gray-900 hover:text-[#B8956A] transition-colors font-medium py-3 px-4 rounded-lg hover:bg-gray-100 text-left"

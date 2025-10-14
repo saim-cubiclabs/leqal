@@ -62,8 +62,8 @@ export default function Contact() {
               </div>
               <div>
                 <h3 className="font-serif text-xl font-bold text-foreground mb-2">Phone</h3>
-                <p className="text-muted-foreground">+1 (555) 123-4567</p>
-                <p className="text-muted-foreground">Mon-Fri: 9AM - 6PM</p>
+                <p className="text-muted-foreground">+965 55003434</p>
+                <p className="text-muted-foreground">Sun - Thurs: 8AM - 4PM</p>
               </div>
             </div>
 
@@ -73,8 +73,8 @@ export default function Contact() {
               </div>
               <div>
                 <h3 className="font-serif text-xl font-bold text-foreground mb-2">Email</h3>
-                <p className="text-muted-foreground">info@aawans.law</p>
-                <p className="text-muted-foreground">contact@aawans.law</p>
+                <p className="text-muted-foreground">leqal@info.com</p>
+               
               </div>
             </div>
 
@@ -85,9 +85,9 @@ export default function Contact() {
               <div>
                 <h3 className="font-serif text-xl font-bold text-foreground mb-2">Office</h3>
                 <p className="text-muted-foreground">
-                  123 Legal Street, Suite 500
+                  
                   <br />
-                  New York, NY 10001
+                  Kuwait City
                 </p>
               </div>
             </div>
@@ -107,7 +107,7 @@ export default function Contact() {
                 onChange={handleChange}
                 required
                 className="w-full px-4 py-3 rounded-lg border border-border focus:outline-none focus:ring-2 focus:ring-[#B8956A] focus:border-transparent"
-                placeholder="John Doe"
+                placeholder="Khalid "
               />
             </div>
 
@@ -123,7 +123,7 @@ export default function Contact() {
                 onChange={handleChange}
                 required
                 className="w-full px-4 py-3 rounded-lg border border-border focus:outline-none focus:ring-2 focus:ring-[#B8956A] focus:border-transparent"
-                placeholder="john@example.com"
+                placeholder="Khalid@example.com"
               />
             </div>
 
@@ -138,7 +138,7 @@ export default function Contact() {
                 value={formData.phone}
                 onChange={handleChange}
                 className="w-full px-4 py-3 rounded-lg border border-border focus:outline-none focus:ring-2 focus:ring-[#B8956A] focus:border-transparent"
-                placeholder="+1 (555) 123-4567"
+                placeholder="+965 68645123"
               />
             </div>
 

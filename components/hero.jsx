@@ -31,7 +31,7 @@ export default function Hero() {
           <div className="space-y-8 ">
             <h1 className="font-serif text-5xl sm:text-6xl lg:text-7xl font-bold text-white leading-tight">
               Best legal{" "}
-              <span className="text-balance block text-[#B8956A]">
+              <span className="text-balance block text-white">
                 solutions.
               </span>
             </h1>
@@ -46,7 +46,7 @@ export default function Hero() {
             <div className="flex flex-wrap gap-4">
               <button
                 onClick={scrollToContact}
-                className="bg-[#B8956A] text-white px-8 py-4 rounded-lg hover:bg-[#A07D54] transition-all font-medium flex items-center gap-2 group"
+                className="bg-white px-8 py-4 rounded-lg transition-all font-medium flex items-center gap-2 group"
               >
                 Get Started
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
@@ -56,7 +56,7 @@ export default function Hero() {
                   const element = document.getElementById("services");
                   if (element) element.scrollIntoView({ behavior: "smooth" });
                 }}
-                className="border-2 border-[#B8956A] text-[#B8956A] px-8 py-4 rounded-lg hover:bg-[#B8956A] hover:text-white transition-all font-medium"
+                className="border-2 border-white text-white px-8 py-4 rounded-lg hover:bg-white hover:text-white transition-all font-medium"
               >
                 Our Services
               </button>
