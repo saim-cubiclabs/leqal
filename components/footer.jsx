@@ -18,7 +18,7 @@ export default function Footer() {
             <div className="flex items-center gap-2 mb-6">
               
               <span className="text-2xl font-serif font-bold">
-                Leqal<span className="text-[#B8956A]">Firm</span>
+                Leqal<span className="text-[#B8956A]">Consultant</span>
               </span>
             </div>
             <p className="text-gray-400 leading-relaxed mb-6">

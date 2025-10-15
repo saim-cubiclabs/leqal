@@ -3,7 +3,7 @@
 body {
   font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
     sans-serif;
-  background-image: url('/leqal.jpg');
+  background-image: url("/leqal.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -13,13 +13,13 @@ body {
 
 /* Optional: Add overlay for better text readability */
 body::before {
-  content: '';
+  content: "";
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.3);
+  background: rgba(0, 0, 0, 0.1);
   z-index: -1;
   pointer-events: none;
 }

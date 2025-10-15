@@ -37,11 +37,11 @@ const services = [
 
 export default function Services() {
   return (
-    <section id="services" className="py-24 bg-white">
+    <section id="services" className="py-24 bg-transparent">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <h2 className="font-serif text-4xl sm:text-5xl font-bold text-foreground mb-4">Our Practice Areas</h2>
-          <p className="text-lg text-muted-foreground leading-relaxed">
+          <h2 className="font-serif text-4xl sm:text-5xl font-bold text-foreground mb-4  text-white">Our Practice Areas</h2>
+          <p className="text-lg text-muted-foreground leading-relaxed  text-white">
             We offer comprehensive legal services across multiple practice areas, delivering expert counsel and
             representation tailored to your needs.
           </p>
@@ -53,7 +53,7 @@ export default function Services() {
             return (
               <div
                 key={index}
-                className="group p-8 rounded-xl border border-border hover:border-[#B8956A] hover:shadow-lg transition-all duration-300 bg-card"
+                className="group p-8 rounded-xl border border-border hover:border-[#B8956A] hover:shadow-lg transition-all duration-300 bg-white/90 backdrop-blur-sm"
               >
                 <div className="w-14 h-14 rounded-lg bg-[#F5F1E8] flex items-center justify-center mb-6 group-hover:bg-[#B8956A] transition-colors">
                   <Icon className="w-7 h-7 text-[#B8956A] group-hover:text-white transition-colors" />
