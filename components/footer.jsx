@@ -88,7 +88,7 @@ export default function Footer() {
 
         <div className="border-t border-white/10 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-gray-400 text-sm">
-            <p>© 2025 Leqal Law Firm. All rights reserved.</p>
+            <p>© 2025 Leqal Law Firm. All rights reserved. <a href="https://cubiclabs.vercel.app/"><span > Powered by CubicLabs</span></a></p>
             <div className="flex gap-6">
               <a href="#" className="hover:text-[#B8956A] transition-colors">
                 Privacy Policy
